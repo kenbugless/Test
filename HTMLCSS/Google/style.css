@@ -1,5 +1,6 @@
 body {
     background-color: black;;
+    display: grid;
 }
 
 .nav {
@@ -7,15 +8,22 @@ body {
     font-family: Apple SD Gothic Neo,arial,sans-serif;
 }
 
+.nav-left {
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-decoration:none;
+}
+
 .nav-right {
     float: right;
     
 }
-  
 .nav-item {
     padding-right: 30px;
     padding-top: 20px;
 }
+
 
 a {
     color: white;
@@ -27,7 +35,7 @@ a:hover {
 }
 
 .main {
-    margin-top:300px;
+    margin-top:150px;
     text-align: center;
 
 }

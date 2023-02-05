@@ -1,0 +1,17 @@
+.mother {
+    display: flex;
+   justify-content:flex-end;
+   
+}
+
+.children {
+    border: 1px solid white;
+    background-color: black;
+    color:white;
+    width: 200px;
+    height: 200px;
+}
+
+.div1s {
+    order:-1;
+}

@@ -1,0 +1,27 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.locate {
+    position: fixed;
+    left: 30px;
+    top: 30px;
+}
+/* absolute는 절대적인..x,y축 같이 이동한다고 보기 
+relative는 내가 있는 자리에서 움직임!
+static이 사실 웹브라우저 기본값(default값)
+fixed는 absolute랑 비슷하다. 
+absolute, fixed 차이는! fixed는 어플 하단에 고정된 것 같은 것!! 절대 고정!!
+*/
